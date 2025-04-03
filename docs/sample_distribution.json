@@ -2,8 +2,8 @@
     "version": "1.0.0",
     "discord": {
         "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "smallImageText": "deltaria_logo",
+        "smallImageKey": "deltaria_logo"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
@@ -36,26 +36,6 @@
                         "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
                     },
                     "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
-                            }
-                        },
                         {
                             "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
                             "name": "Minecraft Forge (scala-library)",
@@ -164,16 +144,6 @@
                                 "size": 56636,
                                 "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
                             }
                         },
                         {
@@ -451,26 +421,6 @@
                     },
                     "subModules": [
                         {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
-                            }
-                        },
-                        {
                             "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
                             "name": "Minecraft Forge (scala-library)",
                             "type": "Library",
@@ -578,16 +528,6 @@
                                 "size": 56636,
                                 "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/lzma-0.0.1.jar"
                             }
                         },
                         {
@@ -865,36 +805,6 @@
                     },
                     "subModules": [
                         {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 247787,
-                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "jline:jline:2.13",
-                            "name": "Mojang (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 248566,
-                                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
-                            }
-                        },
-                        {
                             "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
                             "name": "Minecraft Forge (scala-library)",
                             "type": "Library",
@@ -1002,16 +912,6 @@
                                 "size": 56636,
                                 "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
-                            }
-                        },
-                        {
-                            "id": "lzma:lzma:0.0.1",
-                            "name": "Mojang (LZMA)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 5762,
-                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
                             }
                         },
                         {
